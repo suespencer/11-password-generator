@@ -11,15 +11,15 @@
         <h1 id="title-bottom">random password</h1>
         <h3 class="text-light">Never use an insecure password again.</h3>
         <button id="btn" onclick="randomPassword()">Generate passwords</button>
-        <button class="length-btn" id="eight-btn-el">8</button>
-        <button class="length-btn" id="ten-btn-el">10</button>
-        <button class="length-btn" id="twenty-btn-el" onclick="passwordLength(20) ">20</button>
+        <button class="length-btn" id="eight-btn-el" onclick="passwordLength(8)">8</button>
+        <button class="length-btn" id="ten-btn-el" onclick="passwordLength(10)">10</button>
+        <button class="length-btn" id="twenty-btn-el" onclick="passwordLength(20)">20</button>
 
          <hr />
         <div id="returned-passwords">
      
-        <div class="password-box" id="passbox-one-el"></div>
-        <div class="password-box" id="passbox-two-el"></div>
+        <div class="password-box" id="passbox-one-el" onclick="copyOnClickOne()"></div>
+        <div class="password-box" id="passbox-two-el" onclick="copyOnClickTwo()"></div>
         </div>
         </main>
         <script src="index.js"></script>
